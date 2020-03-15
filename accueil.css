@@ -5,3 +5,64 @@ body{
 .bloc_page img{
    max-width: 100%;
 }
+.top_home{
+    background-image: url(https://i.pinimg.com/originals/7d/cf/54/7dcf546af59b140cfb6be51a3dddd827.jpg);
+}
+
+@media (min-width: 48em) {
+.nav_bar li{
+    list-style-type: none;
+    background-color: transparent;
+    font-size: 3em;
+    margin-left: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: 'Bellota', cursive;
+    font-weight: bold;   
+}
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+.nav_bar a:hover{
+    opacity: 1;
+    transition: 0.5s;
+    max-width: 100%;
+    font-size: 1.1em;
+}
+.nav_bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    
+}
+.home{
+    margin-right: 10em;
+    display: flex;
+}
+header{
+    padding-bottom: 29em;
+}
+.title1{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10em;
+}
+.transition_1 h2{
+    text-align: center;
+    padding-bottom: 20em;
+    font-size: 3em;
+    margin-top: 20em;
+}
+.transition_2{
+    background-image: url(https://images7.alphacoders.com/736/736814.jpg);
+    padding-top: 30em;
+}
+.transition_2 p{
+    text-align: center;
+    padding-bottom: 10em;
+    font-size: 3em;
+}
+}
