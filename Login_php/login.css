@@ -34,35 +34,46 @@ body{
 .nav_bar ul{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-around;
     position: fixed;
     
 }
 .home{
-    margin-right: 10em;
     display: flex;
 }
 header{
-    padding-bottom: 29em;
+    padding-bottom: 16em;
 }
 .title1{
     font-size: 2em;
     text-align: center;
-    padding-top: 10em;
+    padding-top: 6em;
 }
-.transition_1 h2{
+.container{
+    display: flex;
+    flex-direction: column; 
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 56em 2em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 20%;
+  }
+ button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26em 2em;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    font-size: 1em;
+  }
+footer{
     text-align: center;
-    padding-bottom: 20em;
-    font-size: 3em;
-    margin-top: 20em;
-}
-.transition_2{
-    background-image: url(https://images7.alphacoders.com/736/736814.jpg);
-    padding-top: 30em;
-}
-.transition_2 p{
-    text-align: center;
-    padding-bottom: 10em;
-    font-size: 3em;
+
 }
 }

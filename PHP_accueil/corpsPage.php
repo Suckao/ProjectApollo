@@ -1,22 +1,4 @@
-<div class="top_home">
-        <div class="nav_bar">
-            <nav>
-                <ul>
-                    <li class="home"><img src="/images/logo_fusée.png" alt=""><a href="accueil.html">Apollo</a></li>
-                    <li><a href="#">Terre</a></li>
-                    <li><a href="#">Lune</a></li>
-                    <li><a href="#">Neptune</a></li>
-                </ul>
-            </nav>
-        </div>
-        <header>
-            <div class="title1">
-            <h1>Bienvenue à l'embarquement.</h1>
-            <h2>Projet Apollo</h2>
-            <!-- <img src="https://i.pinimg.com/originals/7d/cf/54/7dcf546af59b140cfb6be51a3dddd827.jpg" alt="Embarquement">  -->
-            </div>
-        </header>
-        </div>
+
         <div class="transition_1">
             <h2>Dites "Bonjour"...</h2>
         </div>
